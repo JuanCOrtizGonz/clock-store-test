@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FBF9FF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+::-moz-selection {
+    color: lightblue;
+}
+
+#main-title {
+    background-color: gray;
+}
+
+#nav-menu {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#nav-menu li {
+    list-style: none;
+}
+
+a:link, a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: gray;
+    font-weight: normal;
+}
+
+section > h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #8F8E8D;
+}
